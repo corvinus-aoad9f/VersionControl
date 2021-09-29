@@ -21,17 +21,18 @@ namespace UserMaintenance
             lblLastName.Text = Resource1.LastName;
             btnAdd.Text = Resource1.Add;
 
-            listUsers.DataSource = listUsers;
+            listUsers.DataSource = users;
+            listUsers.ValueMember = "ID";
+            listUsers.DisplayMember = "FullName";
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var u = new User()
+            var u = new User() 
             {
-                LastName = txtLastName.Text,
-                FirstName = txtFirstName.Text
+                FullName = string.Format("{0} {1}", txtLastName.Text, txtFirstName.Text)
             };
-            users.Add(u);
+        users.Add(u);
         }
     }
 }
