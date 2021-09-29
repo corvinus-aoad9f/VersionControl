@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using UserMaintenance.Entities;
+using System.IO;
 
 namespace UserMaintenance
 {
@@ -20,6 +21,7 @@ namespace UserMaintenance
             lblFirstName.Text = Resource1.FirstName;
             lblLastName.Text = Resource1.LastName;
             btnAdd.Text = Resource1.Add;
+            btnWrite.Text = Resource1.Write;
 
             listUsers.DataSource = users;
             listUsers.ValueMember = "ID";
@@ -33,6 +35,24 @@ namespace UserMaintenance
                 FullName = string.Format("{0} {1}", txtLastName.Text, txtFirstName.Text)
             };
         users.Add(u);
+        }
+
+        private void btnWrite_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.InitialDirectory = Application.StartupPath;
+            sfd.Filter = "Comma Seperated Values (*.csv)|*.csv";
+            sfd.DefaultExt = "csv";
+            sfd.AddExtension = true;
+            if (sfd.ShowDialog() != DialogResult.OK) return;
+            using (StreamWriter sw = new StreamWriter(sfd.FileName, false, Encoding.UTF8))
+            {
+                foreach (var u in users)
+                {
+                    sw.Write(u.ID);
+                    sw.WriteLine(u.FullName);
+                }
+            }
         }
     }
 }
