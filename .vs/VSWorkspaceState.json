@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Week04",
     "\\Week04\\Week04",
-    "\\Week04\\Week04\\obj"
+    "\\Week04\\Week04\\obj",
+    "\\Week04\\Week04\\Properties"
   ],
-  "SelectedNode": "\\Week04\\Week04.sln",
+  "SelectedNode": "\\Week04",
   "PreviewInSolutionExplorer": false
 }
