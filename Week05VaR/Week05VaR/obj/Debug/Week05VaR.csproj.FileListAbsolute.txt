@@ -1,0 +1,15 @@
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.csprojAssemblyReference.cache
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.Form1.resources
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.Properties.Resources.resources
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\bin\Debug\Week05VaR.exe.config
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\bin\Debug\Week05VaR.exe
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\bin\Debug\Week05VaR.pdb
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\bin\Debug\EntityFramework.dll
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\bin\Debug\EntityFramework.xml
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.csproj.CopyComplete
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.exe
+C:\Users\Peter\source\repos\VersionControl\Week05VaR\Week05VaR\obj\Debug\Week05VaR.pdb
