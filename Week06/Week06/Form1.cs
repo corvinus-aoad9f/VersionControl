@@ -18,11 +18,35 @@ namespace Week06
     {
         BindingList<RateData> Rates = new BindingList<RateData>();
         public string result;
+        BindingList<string> Currencies = new BindingList<string>();
         public Form1()
         {
             InitializeComponent();
+            GetCurrenciess();
+            comboBox1.DataSource = Currencies;
+
             RefreshData();
             
+        }
+
+        private void GetCurrenciess()
+        {
+            var mnbService = new MNBArfolyamServiceSoapClient();
+            var request = new GetCurrenciesRequestBody();
+            var response = mnbService.GetCurrencies(request);
+            var rezult = response.GetCurrenciesResult;
+            var xml = new XmlDocument();
+            xml.LoadXml(rezult);
+            foreach (XmlElement element in xml.DocumentElement)
+            {
+                for (int i = 0; i < element.ChildNodes.Count; i++)
+                {
+                    var childElement = (XmlElement)element.ChildNodes[i];
+                    Currencies.Add(childElement.InnerText);
+                }
+                
+                
+            }
         }
 
         private void RefreshData()
@@ -62,6 +86,8 @@ namespace Week06
                 Rates.Add(rate);
                 rate.Date = DateTime.Parse(element.GetAttribute("date"));
                 var childElement = (XmlElement)element.ChildNodes[0];
+                if (childElement == null)
+                    continue;
                 rate.Currency = childElement.GetAttribute("curr");
                 var unit = decimal.Parse(childElement.GetAttribute("unit"));
                 var value = decimal.Parse(childElement.InnerText);
