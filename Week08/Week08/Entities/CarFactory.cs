@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,11 +7,11 @@ using Week08.Abstractions;
 
 namespace Week08.Entities
 {
-    public class Ball : Toy
+    public class CarFactory : IToyFactory
     {
-        protected override void DrawImage(Graphics g)
+        public Abstractions.Toy CreateNew()
         {
-            g.FillEllipse(new SolidBrush(Color.Blue), 0, 0, Width, Height);
+            return new Car();
         }
     }
 }
