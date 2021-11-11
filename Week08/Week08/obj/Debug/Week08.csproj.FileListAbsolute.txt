@@ -1,0 +1,11 @@
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\bin\Debug\Week08.exe.config
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\bin\Debug\Week08.exe
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\bin\Debug\Week08.pdb
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\obj\Debug\Week08.csprojAssemblyReference.cache
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\obj\Debug\Week08.Form1.resources
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\obj\Debug\Week08.Properties.Resources.resources
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\obj\Debug\Week08.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\obj\Debug\Week08.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\obj\Debug\Week08.exe
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\obj\Debug\Week08.pdb
+C:\Users\Peter\source\repos\VersionControl\Week08\Week08\bin\Debug\Images\car.jpg
