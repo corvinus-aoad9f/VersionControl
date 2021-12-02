@@ -8,7 +8,7 @@ namespace Week09.Entities
 {
     public class DeathProbability
     {
-        public int BirthYear { get; set; }
+        public int Age { get; set; }
         public Gender Gender { get; set; }
         public double P { get; set; }
     }
