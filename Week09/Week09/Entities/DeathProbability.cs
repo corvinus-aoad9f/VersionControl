@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week09.Entities
 {
-    public class DeathProbality
+    public class DeathProbability
     {
         public int BirthYear { get; set; }
         public Gender Gender { get; set; }
