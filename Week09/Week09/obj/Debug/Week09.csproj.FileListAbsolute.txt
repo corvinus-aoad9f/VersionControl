@@ -1,0 +1,9 @@
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\bin\Debug\Week09.exe.config
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\bin\Debug\Week09.exe
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\bin\Debug\Week09.pdb
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\obj\Debug\Week09.csprojAssemblyReference.cache
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\obj\Debug\Week09.Properties.Resources.resources
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\obj\Debug\Week09.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\obj\Debug\Week09.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\obj\Debug\Week09.exe
+C:\Users\Peter\source\repos\VersionControl\Week09\Week09\obj\Debug\Week09.pdb
